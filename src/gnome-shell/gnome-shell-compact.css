@@ -3537,8 +3537,6 @@ StWidget.focused .app-well-app-running-dot {
 
 #dashtodockContainer {
   background: transparent;
-  margin: 5px;
-  margin-top: 0px;
 }
 
 #dashtodockContainer #dash, #dashtodockContainer:overview #dash, #dashtodockContainer.extended #dash, #dashtodockContainer.extended:overview #dash {
@@ -3551,12 +3549,20 @@ StWidget.focused .app-well-app-running-dot {
   border-radius: 16px 16px 16px 16px;
 }
 
+#dashtodockContainer.top {
+  margin-top: 5px;
+}
+
 #dashtodockContainer.top.extended #dash, #dashtodockContainer.top.extended:overview #dash {
   border-radius: 16px 16px 16px 16px;
 }
 
 #dashtodockContainer.bottom #dash, #dashtodockContainer.bottom:overview #dash {
   border-radius: 16px 16px 16px 16px;
+}
+
+#dashtodockContainer.bottom {
+  margin-bottom: 5px;
 }
 
 #dashtodockContainer.bottom.extended #dash, #dashtodockContainer.bottom.extended:overview #dash {
@@ -3567,12 +3573,20 @@ StWidget.focused .app-well-app-running-dot {
   border-radius: 16px 16px 16px 16px;
 }
 
+#dashtodockContainer.left {
+  margin-left: 5px;
+}
+
 #dashtodockContainer.left.extended #dash, #dashtodockContainer.left.extended:overview #dash {
   border-radius: 16px 16px 16px 16px;
 }
 
 #dashtodockContainer.right #dash, #dashtodockContainer.right:overview #dash {
   border-radius: 16px 16px 16px 16px;
+}
+
+#dashtodockContainer.right {
+  margin-right: 5px;
 }
 
 #dashtodockContainer.right.extended #dash, #dashtodockContainer.right.extended:overview #dash {

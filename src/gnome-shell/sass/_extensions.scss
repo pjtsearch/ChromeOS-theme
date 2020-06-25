@@ -6,8 +6,6 @@ $icon_padding: 9px;
 
 #dashtodockContainer {
   background: transparent;
-  margin: 5px;
-  margin-top:0px;
 
   #dash,
   &:overview #dash,
@@ -24,6 +22,8 @@ $icon_padding: 9px;
                             (right, 16px 16px 16px 16px) {
     &.#{$_dock} #dash,
     &.#{$_dock}:overview #dash { border-radius: #{$_radius}; }
+
+    &.#{$_dock} { margin-#{$_dock}: 5px}
 
     &.#{$_dock}.extended #dash,
     &.#{$_dock}.extended:overview #dash { border-radius: #{$_radius}; }
