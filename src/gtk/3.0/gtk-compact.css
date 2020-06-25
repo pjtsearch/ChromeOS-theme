@@ -1336,7 +1336,7 @@ searchbar > revealer > box {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), color 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 8px 8px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 -1px rgba(0, 0, 0, 0.12);
-  background-color: #212121;
+  background-color: #2C2C2C;
   color: white;
 }
 
@@ -1345,7 +1345,7 @@ searchbar > revealer > box {
 }
 
 .titlebar:backdrop {
-  background-color: #2e2e2e;
+  background-color: #393939;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1411,7 +1411,7 @@ searchbar > revealer > box {
 }
 
 .titlebar entry selection {
-  color: #212121;
+  color: #2C2C2C;
   background-color: white;
 }
 
@@ -1571,14 +1571,14 @@ searchbar > revealer > box {
 }
 
 .titlebar.default-decoration {
-  background-color: #212121;
+  background-color: #2C2C2C;
   min-height: 24px;
   padding: 4px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
 .titlebar.default-decoration:backdrop {
-  background-color: #262626;
+  background-color: #313131;
 }
 
 .tiled .titlebar.default-decoration, .maximized .titlebar.default-decoration, .fullscreen .titlebar.default-decoration {
@@ -1847,13 +1847,13 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0;
-  background-color: #212121;
+  background-color: #2C2C2C;
   color: white;
 }
 
 menubar:backdrop,
 .menubar:backdrop {
-  background-color: #2e2e2e;
+  background-color: #393939;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -3914,11 +3914,11 @@ messagedialog.csd decoration {
   border-radius: 0;
   box-shadow: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #212121;
+  background-color: #2C2C2C;
 }
 
 .solid-csd decoration:backdrop {
-  background-color: #2e2e2e;
+  background-color: #393939;
 }
 
 XfdesktopIconView.view:active, calendar.raven-calendar:selected, .budgie-popover.budgie-menu button.flat:not(.image-button):not(.indicator-item):checked, box.vertical > widget > widget:selected, modelbutton.flat:selected,
@@ -5673,12 +5673,12 @@ UnityDecoration .top {
   border-style: none;
   border-radius: 8px 8px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #212121;
+  background-color: #2C2C2C;
   color: white;
 }
 
 UnityDecoration .top:backdrop {
-  background-color: #2e2e2e;
+  background-color: #393939;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -7200,8 +7200,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_title white;
 @define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
-@define-color wm_bg #212121;
-@define-color wm_unfocused_bg #2e2e2e;
+@define-color wm_bg #2C2C2C;
+@define-color wm_unfocused_bg #393939;
 /*
 FIXME this is really an API */
 @define-color content_view_bg #FFFFFF;
