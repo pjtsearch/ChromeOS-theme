@@ -3538,6 +3538,7 @@ StWidget.focused .app-well-app-running-dot {
 #dashtodockContainer {
   background: transparent;
   margin: 5px;
+  margin-top: 0px;
 }
 
 #dashtodockContainer #dash, #dashtodockContainer:overview #dash, #dashtodockContainer.extended #dash, #dashtodockContainer.extended:overview #dash {
